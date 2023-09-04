@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  height: auto;
+}
+
+.container > div {
+  margin: 1rem auto;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}

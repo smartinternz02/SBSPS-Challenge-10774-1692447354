@@ -1,0 +1,74 @@
+/* Reset some default styles */
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+/* Overall container */
+.container-login {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Left column */
+.left-column {
+  flex: 1;
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: black;
+}
+
+/* Right column */
+.right-column {
+  flex: 1;
+  background-color: black;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+/* Common header styles */
+.header {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* Empty div styles */
+.empty-div {
+  height: 1rem;
+}
+
+.right-column .header {
+  font-size: 2.5rem;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-column {
+    align-items: center;
+    flex: 1;
+  }
+
+  .left-column,
+  .right-column {
+    box-shadow: none;
+    text-align: center;
+  }
+}

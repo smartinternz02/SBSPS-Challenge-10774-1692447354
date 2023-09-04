@@ -1,0 +1,10 @@
+.galleyImageContainer {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0.2);
+}
+
+.galleyImageContainer > img {
+  display: block;
+  margin: 0 5px;
+}

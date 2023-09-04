@@ -1,0 +1,9 @@
+.query-list {
+  list-style: none;
+  padding: 0;
+}
+
+.query-list__fallback {
+  color: #000;
+  text-align: center;
+}

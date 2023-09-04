@@ -1,0 +1,7 @@
+.photosContainer {
+  display: flex;
+  justify-content: center;
+}
+.photosContainer > * {
+  margin: 8px 5px;
+}

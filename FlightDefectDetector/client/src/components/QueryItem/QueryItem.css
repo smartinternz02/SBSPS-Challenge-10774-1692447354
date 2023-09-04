@@ -1,0 +1,37 @@
+.query-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0rem 0;
+  background-color: #4b4b4b;
+}
+
+.query-item__description {
+  display: flex;
+  flex-direction: column;
+  gap: 50rem;
+  align-items: flex-end;
+  flex-flow: column-reverse;
+  color: #3a3a3a;
+
+}
+
+.query-item_description h2 {
+  color: #3a3a3a;
+  font-size: 1rem;
+  margin: 0 0rem;
+  color: white;
+}
+
+@media (min-width: 1080px) {
+  .query-item__description {
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+  }
+
+  .query-item__description h2 {
+    font-size: 1.25rem;
+  }
+}

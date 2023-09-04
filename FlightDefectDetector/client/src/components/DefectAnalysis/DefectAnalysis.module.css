@@ -1,0 +1,23 @@
+.arrowContainer {
+  width: 4rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.infoContainer {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.defectInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.defectInfoContainer > * {
+  padding: 8px 0;
+  margin-bottom: 0;
+}

@@ -1,0 +1,30 @@
+.containerQuery {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.containerQuery > * {
+  margin: 0.5rem auto;
+}
+.infoContainer {
+  width: 60%;
+}
+.infoContainer > * {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.flightInfoContainer > * {
+  padding: 0.5rem 0;
+  display: flex;
+}
+
+.flightInfoContainer > * > * {
+  width: 50%;
+}
+
+.footNoteContainer {
+  text-align: center;
+}
